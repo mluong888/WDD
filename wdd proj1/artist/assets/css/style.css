@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+ /* background-color: #DAD2E3;*/
+  background-color: #8196CC;
+  margin-right: 0px;
+}
+
+#nav-bar {
+  width: 1700px;
+  height: 73px;
+  background: #15347B;
+  position: static;
+
+}
+
+/*#logo {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}*/
+
+#logo {
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#below-navbar{
+  position: relative;
+  width: 1700px;
+  height: 50px;
+  background: #04153B;
+
+}
+
+
+#web-title {
+  position: absolute;
+  left: 40px;
+  top: 6px;
+}
+
+#searchicon {
+position: absolute;
+  left: 1400px;
+  top: 12px;
+  z-index: 0;
+}
+
+#searchicon:hover {
+  cursor: pointer;
+}
+
+
+#alphabet input[type=text] {
+
+  position: absolute;
+  left: 1100px;
+  bottom: -2px;
+
+  height: 28px;
+  width: 178px;
+
+  padding: 10px;
+  border: solid;
+  border-color: #707070;
+  border-width: 2px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 17px;
+
+  z-index: 1;
+}
+
+
+#alphabet {
+  position: absolute;
+  left: 121px;
+  top: 16px;
+}
+
+
+.letter {
+  display: inline-block;
+  padding: 7px;
+  border-radius: 20%;
+}
+
+.letter:hover {
+  background-color: #071B55;
+  cursor: pointer;
+}
+
+.letter:active {
+  background-color: black;
+}
+#Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    font-family: Helvetica;
+}
+#drop-down-menu {
+    position: absolute;
+    left: 1350px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+.dropbtn {
+    background-color: #F6F6F6;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-family: Helvetica;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    font-family: Helvetica;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #0000FF;}
+
+#head{
+    position: relative;
+    left: 7%;
+    top: 75px;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+#album{
+    display: flex;
+    flex-direction: column;
+}
+.album-content{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.Album-cover {
+    position: relative;
+    left: 5%;
+    down: 10%;
+}
+
+.album-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+.column1{
+    position: absolute;
+    left: 30%;
+}
+.column2{
+    position: absolute;
+    left: 70%;
+}
+.song{
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.song:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+#botnav {
+  margin-top: 50px;
+  width: 1700px;
+  height: 60px;
+  background: #15347B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bothing {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+}
+
+.bothing:hover {
+  background-color: #071B55;
+  cursor: pointer;
+}
+
+.bothing:active {
+  background-color: black;
+}
+
+#botbotbar {
+  width: 1700px;
+  height: 35px;
+  background: #04153B;
+}
+
+#misc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.miscthing {
+  margin: 2px 15px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #2200FF;
+  text-shadow: 2px 2px 8px #2200FF;
+}
+
+.miscthing:hover {
+  cursor: pointer;
+}
+
+#disc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 18px;
+  font-size: 11px;
+}
+
+#cri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2px;
+
+}

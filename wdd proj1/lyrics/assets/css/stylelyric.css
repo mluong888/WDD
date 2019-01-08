@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+ /* background-color: #DAD2E3;*/
+  background-color: #8196CC;
+  margin-right: 0px;
+}
+
+#nav-bar {
+  width: 1700px;
+  height: 73px;
+  background: #15347B;
+  position: static;
+
+}
+
+/*#logo {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}*/
+
+#logo {
+  position: absolute;
+  left: 50px;
+  top: 13px;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#below-navbar{
+  position: relative;
+  width: 1700px;
+  height: 50px;
+  background: #04153B;
+
+}
+
+
+#web-title {
+  position: absolute;
+  left: 40px;
+  top: 6px;
+}
+
+#searchicon {
+  position: absolute;
+  left: 1400px;
+  top: 12px;
+  z-index: 0;
+}
+
+#searchicon:hover {
+  cursor: pointer;
+}
+
+
+#alphabet input[type=text] {
+
+  position: absolute;
+  left: 1100px;
+  bottom: -2px;
+
+  height: 28px;
+  width: 178px;
+
+  padding: 10px;
+  border: solid;
+  border-color: #707070;
+  border-width: 2px;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 17px;
+
+  z-index: 1;
+}
+
+
+#alphabet {
+  position: absolute;
+  left: 121px;
+  top: 16px;
+}
+
+
+.letter {
+  display: inline-block;
+  padding: 7px;
+  border-radius: 20%;
+}
+
+.letter:hover {
+  background-color: #071B55;
+  cursor: pointer;
+}
+
+.letter:active {
+  background-color: black;
+}
+
+#header {
+  display: inline-flex;
+  position: absolute;
+  flex-direction: row;
+}
+
+.song-title {
+  width: 300px;
+  height: 70px;
+  font-size: 18pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /*background-color: #EDEAF2;*/
+  background-color: #04153B;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 25px;
+  font-family: Helvetica;
+}
+
+.side-buttonright {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  background-color: #15347B;
+  margin-left: 190px;
+  margin-top: 70px;
+  border-radius: 25px;
+  font-family: Helvetica;
+}
+
+.side-buttons {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  background-color: #15347B;
+  margin-left: 220px;
+  margin-top: 70px;
+  border-radius: 25px;
+  font-family: Helvetica;
+}
+
+.print {
+  position: absolute;
+  right: 900px;
+  top: 80px;
+}
+
+.playsong {
+  position: absolute;
+  top: 140px;
+  right: 400px;
+  font-family: Helvetica;
+}
+
+.on {
+  position: absolute;
+  left: 590px;
+  top: 330px;
+  font-family: Helvetica;
+}
+
+.spotify {
+  position: absolute;
+  left: 670px;
+  top: 325px;
+}
+
+.spotify:hover {
+  cursor: pointer;
+}
+
+.play {
+  position: absolute;
+  left: 510px;
+  top: 290px;
+}
+
+.play:hover {
+  cursor: pointer;
+}
+
+.speaker {
+  position: relative;
+  left: 793px;
+  top: 167px;
+}
+
+.speaker:hover {
+  cursor: pointer;
+}
+
+hr {
+  color: black;
+  background: black;
+  width: 240px;
+  height: 3px;
+  position: absolute;
+  left: 550px;
+  z-index: 1;
+  top:300px;
+}
+
+.side-buttons:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.side-buttonright:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.social {
+  display: inline-block;
+  position: relative;
+  left: 980px;
+  top: 70px;
+}
+.social:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+
+.lyric {
+  width: 310px;
+  height: 1370px;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  left: 520px;
+  top: 170px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.end-first {
+  width: 260px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  background-color:#15347B;
+  margin-left: 540px;
+  margin-top: 180px;
+  font-family: Helvetica;
+}
+
+.end-first:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.pencil {
+  position: relative;
+  left: 560px;
+  top: 210px;
+  z-index: 1
+}
+
+#writer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 520px;
+  color: white;
+  font-family: Helvetica;
+}
+
+#botnav {
+  margin-top: 50px;
+  width: 1700px;
+  height: 60px;
+  background: #15347B;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bothing {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+}
+
+.bothing:hover {
+  background-color: #071B55;
+  cursor: pointer;
+}
+
+.bothing:active {
+  background-color: black;
+}
+
+#botbotbar {
+  width: 1700px;
+  height: 35px;
+  background: #04153B;
+}
+
+#misc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.miscthing {
+  margin: 2px 15px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #2200FF;
+  text-shadow: 2px 2px 8px #2200FF;
+}
+
+.miscthing:hover {
+  cursor: pointer;
+}
+
+#disc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 18px;
+  font-size: 11px;
+}
+
+#cri {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2px;
+
+}
